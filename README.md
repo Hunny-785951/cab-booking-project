@@ -15,12 +15,12 @@ This project is a comprehensive Cab Booking platform built entirely using the Re
 ## 📁 Project Structure
 
 The workspace is organized into three main components:
-
 ```text
 cab-booking-project/
 ├── cab-booking-system/                      # Backend/System logic application
 ├── cab-booking-ui/                          # Frontend User Interface (React.js)
 └── CabBookingSystem.postman_collection.json # API endpoints and test requests
+`````
 
 🚀 Getting Started
 Follow these instructions to set up the project locally on your machine.
@@ -33,6 +33,8 @@ Postman: Download Postman to test the API routes.
 Installation & Setup
 You will need to open two separate terminal windows to run the frontend and backend simultaneously.
 
-1. Clone the repository:
-git clone [https://github.com/Hunny-785951/cab-booking-project.git](https://github.com/Hunny-785951/cab-booking-project.git)
+1. Clone the repository
+```text
+git clone https://github.com/Hunny-785951/cab-booking-project.git
 cd cab-booking-project
+```
