@@ -1,0 +1,39 @@
+.nf-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #000428, #004e92);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.nf-title {
+  font-size: 6rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.nf-subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.nf-btn {
+  padding: 12px 24px;
+  background: white;
+  color: #004e92;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+
+.nf-btn:hover {
+  background: #004e92;
+  color: white;
+  transform: scale(1.05);
+}

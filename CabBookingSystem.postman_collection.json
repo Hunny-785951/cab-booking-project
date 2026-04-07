@@ -1,0 +1,93 @@
+{
+  "info": {
+    "name": "Cab Booking System",
+    "_postman_id": "cab-booking-system-collection",
+    "description": "Postman collection for testing Cab Booking System APIs",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Add Cab",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"cabId\": 101,\n    \"driverName\": \"Arjun\",\n    \"x\": 5,\n    \"y\": 7\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/cabs/add",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["api", "cabs", "add"]
+        }
+      }
+    },
+    {
+      "name": "Book Cab",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"userId\": 201,\n    \"name\": \"Alice\",\n    \"x\": 2,\n    \"y\": 3\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/cabs/book",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["api", "cabs", "book"]
+        }
+      }
+    },
+    {
+      "name": "Update Cab Location",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"cabId\": 101,\n    \"x\": 10,\n    \"y\": 12\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/cabs/updateLocation",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["api", "cabs", "updateLocation"]
+        }
+      }
+    },
+    {
+      "name": "Get Available Cabs",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/cabs/available",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["api", "cabs", "available"]
+        }
+      }
+    }
+  ]
+}
