@@ -20,7 +20,7 @@ cab-booking-project/
 ├── cab-booking-system/                      # Backend/System logic application
 ├── cab-booking-ui/                          # Frontend User Interface (React.js)
 └── CabBookingSystem.postman_collection.json # API endpoints and test requests
-`````
+```
 
 🚀 Getting Started
 Follow these instructions to set up the project locally on your machine.
@@ -38,3 +38,33 @@ You will need to open two separate terminal windows to run the frontend and back
 git clone https://github.com/Hunny-785951/cab-booking-project.git
 cd cab-booking-project
 ```
+
+2. Start the Backend System (cab-booking-system)
+Open your first terminal window and run:
+```text
+cd cab-booking-system
+npm install
+npm start
+```
+
+🧪 API Testing with Postman
+We have included a pre-configured Postman collection to make testing the system routes effortless.
+
+Open Postman.
+
+Click Import in the top left corner.
+
+Select and upload the CabBookingSystem.postman_collection.json file from the root directory.
+
+You will now see all available API endpoints, complete with expected request bodies and parameters.
+
+⚙️ Features
+Interactive UI: Smooth, single-page application experience powered by React.
+
+Component-Driven: Highly reusable and modular code architecture.
+
+API Integration: Ready-to-use backend endpoints for booking and user management.
+
+<div align="center">
+<i>Built by Hunny</i>
+</div>
