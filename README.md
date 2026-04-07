@@ -66,5 +66,5 @@ Component-Driven: Highly reusable and modular code architecture.
 API Integration: Ready-to-use backend endpoints for booking and user management.
 
 <div align="right">
-<i>Built by : Hunny</i>
+<i>Built by : Hunny S.</i>
 </div>
