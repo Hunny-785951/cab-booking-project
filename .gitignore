@@ -1,0 +1,4 @@
+/cab-booking-system/vendor/
+/cab-booking-system/.env
+/cab-booking-ui/node_modules/
+.DS_Store
